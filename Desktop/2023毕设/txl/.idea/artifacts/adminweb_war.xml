@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="adminweb:war">
+    <output-path>$PROJECT_DIR$/adminweb/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>adminweb</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="adminWeb.war">
+      <element id="artifact" artifact-name="adminweb:war exploded" />
+    </root>
+  </artifact>
+</component>

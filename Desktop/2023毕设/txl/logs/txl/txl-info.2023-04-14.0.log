@@ -1,0 +1,14 @@
+[txl:0.0.0.0:8080] [,] 2023-04-14 22:07:50.448 INFO 15824 [main] com.jr.AdminWebApplication Starting AdminWebApplication using Java 1.8.0_333 on LAPTOP-2V7MJP33 with PID 15824 (C:\Users\鹿先生\Desktop\2023毕设\txl\adminweb\target\classes started by 鹿先生 in C:\Users\鹿先生\Desktop\2023毕设\txl)
+[txl:0.0.0.0:8080] [,] 2023-04-14 22:07:50.468 INFO 15824 [main] com.jr.AdminWebApplication The following profiles are active: dev
+[txl:0.0.0.0:8080] [,] 2023-04-14 22:07:56.749 INFO 15824 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Multiple Spring Data modules found, entering strict repository configuration mode!
+[txl:0.0.0.0:8080] [,] 2023-04-14 22:07:56.755 INFO 15824 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[txl:0.0.0.0:8080] [,] 2023-04-14 22:07:57.111 INFO 15824 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 308 ms. Found 0 Redis repository interfaces.
+[txl:0.0.0.0:8080] [,] 2023-04-14 22:07:58.894 INFO 15824 [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'redisConfig' of type [com.jr.config.RedisConfig$$EnhancerBySpringCGLIB$$48281176] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[txl:0.0.0.0:8080] [,] 2023-04-14 22:08:00.316 INFO 15824 [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8080 (http)
+[txl:0.0.0.0:8080] [,] 2023-04-14 22:08:00.361 INFO 15824 [main] org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8080"]
+[txl:0.0.0.0:8080] [,] 2023-04-14 22:08:00.364 INFO 15824 [main] org.apache.catalina.core.StandardService Starting service [Tomcat]
+[txl:0.0.0.0:8080] [,] 2023-04-14 22:08:00.365 INFO 15824 [main] org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.41]
+[txl:0.0.0.0:8080] [,] 2023-04-14 22:08:01.465 INFO 15824 [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+[txl:0.0.0.0:8080] [,] 2023-04-14 22:08:01.468 INFO 15824 [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext Root WebApplicationContext: initialization completed in 10855 ms
+[txl:0.0.0.0:8080] [,] 2023-04-14 22:08:03.887 INFO 15824 [main] com.alibaba.druid.pool.DruidDataSource {dataSource-1} inited
+[txl:0.0.0.0:8080] [,] 2023-04-14 22:08:04.641 INFO 15824 [Druid-ConnectionPool-Create-547305607] com.alibaba.druid.pool.DruidAbstractDataSource {dataSource-1} failContinuous is true
